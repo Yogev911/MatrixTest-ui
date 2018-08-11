@@ -1,0 +1,101 @@
+#popup{
+    display: none;
+    border: 1px solid black;
+}
+
+a{
+    cursor: pointer;
+    color: #007bff !important;
+    text-decoration: none !important;
+}
+
+.cell-which-triggers-popup{
+    cursor: pointer;
+}
+
+.cell-which-triggers-popup:hover{
+    background-color: yellow;
+}
+
+#tbodyAdmin .btn{
+    margin-right: 5px;
+}
+
+#loader{
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255,255,255,0.5);
+}
+#loader img{
+    display: block;
+    position: absolute;
+    top: calc(50vh - 50px);
+    right: 0;
+    left: 0;
+    width: 100px;
+    margin: auto;
+}
+
+.alert-container{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 400px;
+    padding: 10px;
+    display: table-cell;
+    vertical-align: bottom;
+}
+.alert-container .alert{
+    max-height: 200px;
+    overflow: auto;
+    width: 100%;
+    text-overflow: ellipsis;
+}
+
+.table{
+    margin: 0;
+}
+.table td{
+    word-wrap: break-word;
+}
+
+.tabelContainer{
+    width: 90%;
+    margin: auto;
+}
+.modal-body{
+    position: relative;
+}
+.modal-body .docContainer{
+    padding:0 40px;
+}
+.modal-body p{
+    white-space: pre-wrap;
+}
+.modal-body #printBtn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.btnsContainer{
+    width: 220px;
+}
+#pages{
+    text-align: center;
+}
+#pages a{
+    margin: 10px;
+}
+
+#pages a.active{
+    color: black !important;
+}
+
+.mark{
+    background-color: yellow;
+    color : red;
+}
